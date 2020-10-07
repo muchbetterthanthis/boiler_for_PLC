@@ -108,18 +108,6 @@ void showStartParam(const int& lowLevelSet, const int& highLevelSet) {
 	std::cout << "High level set: " << highLevelSet << std::endl;
 }
 
-//void showParam(int& waterLevel, bool& lowLevel, bool& highLevel, bool& pump) {
-//	std::string lowLevelSensor = lowLevel  ? "ON" : "OFF";
-//	std::string highLevelSensor = highLevel ? "ON" : "OFF";
-//	std::string pumpIs = pump ? "ON" : "OFF";
-//
-//	std::cout << "------------------" << std::endl;
-//	std::cout << "Current water level: " << waterLevel << std::endl;
-//	std::cout << "low level sensor: " << lowLevelSensor << std::endl;
-//	std::cout << "high level sensor: " << highLevelSensor << std::endl;
-//	std::cout << "pump: " << pumpIs << std::endl;
-//}
-
 void showParam(int& waterLevel, bool lowLevel, bool highLevel, bool pump) {
 	std::string lowLevelSensor = lowLevel ? "ON" : "OFF";
 	std::string highLevelSensor = highLevel ? "ON" : "OFF";
